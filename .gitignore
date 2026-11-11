@@ -1,0 +1,113 @@
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ============================
+# Virtual Environments
+# ============================
+venv/
+.venv/
+env/
+.env/
+ENV/
+virtualenv/
+
+# ============================
+# Environment Variables / Secrets
+# ============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ============================
+# IDE - PyCharm / IntelliJ
+# ============================
+.idea/
+*.iml
+
+# ============================
+# IDE - VS Code
+# ============================
+.vscode/
+*.code-workspace
+
+# ============================
+# Testing / Coverage
+# ============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+
+# ============================
+# Type Checking / Linting
+# ============================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+.pyre/
+
+# ============================
+# Build / Distribution
+# ============================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# Django / Flask
+# ============================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache/
+
+# ============================
+# macOS
+# ============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================
+# Windows
+# ============================
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Temporary Files
+# ============================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.cache/
+tmp/
+temp/
